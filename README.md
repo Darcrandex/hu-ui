@@ -1,27 +1,19 @@
-# hu-ui
+## HU-UI
 
-## Getting Started
+### 使用
 
-Install dependencies,
-
-```bash
-$ npm i
+```cmd
+yarn add @darcrand/hu-ui
 ```
 
-Start the dev server,
+```jsx
+import { Button } from '@/darcrand/hu-ui';
 
-```bash
-$ npm start
-```
-
-Build documentation,
-
-```bash
-$ npm run docs:build
-```
-
-Build library via `father-build`,
-
-```bash
-$ npm run build
+const App = () => {
+  return (
+    <>
+      <Button>Click Me</Button>
+    </>
+  );
+};
 ```
