@@ -2,7 +2,7 @@
 
 ```tsx
 import React from 'react';
-import { Avatar } from 'hu-ui';
+import { Avatar } from '@darcrand/hu-ui';
 
 export default () => {
   return (
@@ -16,9 +16,4 @@ export default () => {
 };
 ```
 
-### API
-
-| 属性     | 说明         | 类型         | 默认值    |
-| -------- | ------------ | ------------ | --------- |
-| src      | 头像图片路径 | strng        | undefined |
-| children | 内容         | ReactElement | undefined |
+<API></API>

@@ -9,9 +9,14 @@ import styles from './styles.module.less';
 
 interface IProps {
   children?: React.ReactElement;
+  /** 按钮类型 */
   type?: 'primary' | 'dashed' | 'default';
+  /** 是否全宽 */
   block?: boolean;
+  /** 按钮尺寸 */
   size?: 'large' | 'middle' | 'small';
+  /** 自定义 style */
+  style?: React.CSSProperties;
 }
 
 function mergeClassNames(classes: string[]) {

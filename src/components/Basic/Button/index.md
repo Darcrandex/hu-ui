@@ -6,7 +6,7 @@
 
 ```tsx
 import React from 'react';
-import { Button } from 'hu-ui';
+import { Button } from '@darcrand/hu-ui';
 
 export default () => {
   return (
@@ -23,7 +23,7 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { Button } from 'hu-ui';
+import { Button } from '@darcrand/hu-ui';
 
 export default () => {
   return (
@@ -40,7 +40,7 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { Button } from 'hu-ui';
+import { Button } from '@darcrand/hu-ui';
 
 export default () => {
   return (
@@ -51,10 +51,4 @@ export default () => {
 };
 ```
 
-### API
-
-| 属性  | 说明     | 类型                             | 默认值  |
-| ----- | -------- | -------------------------------- | ------- |
-| type  | 按钮类型 | 'primary' , 'dashed' , 'default' | default |
-| block | 是否全宽 | boolean                          | `false` |
-| size  | 按钮尺寸 | 'large' , 'middle' , 'small';    | middle  |
+<API></API>
