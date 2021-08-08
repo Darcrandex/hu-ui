@@ -36,7 +36,7 @@ export default () => {
 };
 ```
 
-### 沾满全宽
+### 全宽按钮
 
 ```tsx
 import React from 'react';
@@ -45,7 +45,7 @@ import { Button } from 'hu-ui';
 export default () => {
   return (
     <>
-      <Button block>沾满全宽</Button>
+      <Button block>全宽按钮</Button>
     </>
   );
 };
