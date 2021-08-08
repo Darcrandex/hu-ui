@@ -1,13 +1,15 @@
 {
   "private": false,
   "name": "@darcrand/hu-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "darcrand",
     "email": "darcrandex@gmail.com"
   },
 
   "license": "Apache license",
+  "keywords": ["react","ui-components"],
+
 
   "scripts": {
     "start": "dumi dev",
