@@ -1,7 +1,14 @@
 {
-  "private": true,
-  "name": "hu-ui",
+  "private": false,
+  "name": "@darcrand/hu-ui",
   "version": "1.0.0",
+  "author": {
+    "name": "darcrand",
+    "email": "darcrandex@gmail.com"
+  },
+
+  "license": "Apache license",
+
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",

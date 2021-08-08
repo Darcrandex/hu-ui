@@ -3,8 +3,8 @@ import { defineConfig } from 'dumi';
 export default defineConfig({
   // more config: https://d.umijs.org/config
   title: 'hu-ui',
-  favicon: '/images/husky.png',
-  logo: '/images/husky.png',
+  favicon: './images/husky.png',
+  logo: './images/husky.png',
   outputPath: 'docs-dist',
   mode: 'site',
 
