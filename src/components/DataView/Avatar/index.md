@@ -4,6 +4,14 @@
 import React from 'react';
 import { Avatar } from '@darcrand/hu-ui';
 
+const a = '';
+
+let b = 0;
+
+function c() {
+  return [].map();
+}
+
 export default () => {
   return (
     <>

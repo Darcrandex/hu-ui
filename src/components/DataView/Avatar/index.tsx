@@ -7,6 +7,10 @@
 import React from 'react';
 import styles from './styles.module.less';
 
+function m() {
+  return [].map();
+}
+
 interface IProps {
   /** 头像的图片路径. 如果没有传,使用 children 作为内容 */
   src?: string;
